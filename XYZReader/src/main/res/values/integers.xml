@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="splash_screen_time">1500</integer>
+    <integer name="FAB_fade_out_time">150</integer>
+    <integer name="FAB_fade_in_time">200</integer>
+</resources>

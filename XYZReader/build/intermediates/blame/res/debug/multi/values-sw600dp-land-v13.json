@@ -1,0 +1,558 @@
+[
+    {
+        "outputFile": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1370,
+                        "endColumn": 44,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 46,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 46,
+                        "endOffset": 124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 46,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 46,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 48,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 48,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 57,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1661,
+                        "endColumn": 57,
+                        "endOffset": 1714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 56,
+                    "endOffset": 353
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 56,
+                        "endOffset": 2077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 358,
+                    "endColumn": 52,
+                    "endOffset": 406
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1221,
+                        "endColumn": 52,
+                        "endOffset": 1269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 411,
+                    "endColumn": 54,
+                    "endOffset": 461
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1166,
+                        "endColumn": 54,
+                        "endOffset": 1216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 466,
+                    "endColumn": 55,
+                    "endOffset": 517
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 55,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 522,
+                    "endColumn": 53,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1915,
+                        "endColumn": 53,
+                        "endOffset": 1964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 68,
+                    "endOffset": 640
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1719,
+                        "endColumn": 68,
+                        "endOffset": 1783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 645,
+                    "endColumn": 65,
+                    "endOffset": 706
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1848,
+                        "endColumn": 65,
+                        "endOffset": 1909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 711,
+                    "endColumn": 58,
+                    "endOffset": 765
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1789,
+                        "endColumn": 58,
+                        "endOffset": 1843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 770,
+                    "endColumn": 55,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1604,
+                        "endColumn": 55,
+                        "endOffset": 1655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endColumn": 53,
+                    "endOffset": 875
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 53,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 880,
+                    "endColumn": 52,
+                    "endOffset": 928
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 52,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 933,
+                    "endColumn": 48,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 611,
+                        "endColumn": 48,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 46,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 46,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1029,
+                    "endColumn": 51,
+                    "endOffset": 1076
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 51,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1081,
+                    "endColumn": 54,
+                    "endOffset": 1131
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 54,
+                        "endOffset": 606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1136,
+                    "endColumn": 51,
+                    "endOffset": 1183
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endColumn": 51,
+                        "endOffset": 224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1188,
+                    "endColumn": 46,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 130,
+                        "endColumn": 46,
+                        "endOffset": 172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 94,
+                    "endOffset": 1325
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1274,
+                        "endColumn": 94,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1330,
+                    "endColumn": 80,
+                    "endOffset": 1406
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\floats.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 138,
+                        "endColumn": 80,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1411,
+                    "endColumn": 79,
+                    "endOffset": 1486
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\floats.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 79,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1491,
+                    "endColumn": 55,
+                    "endOffset": 1542
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1459,
+                        "endColumn": 55,
+                        "endOffset": 1510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1547,
+                    "endColumn": 49,
+                    "endOffset": 1592
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 784,
+                        "endColumn": 49,
+                        "endOffset": 829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1597,
+                    "endColumn": 46,
+                    "endOffset": 1639
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1044,
+                        "endColumn": 46,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1644,
+                    "endColumn": 59,
+                    "endOffset": 1699
+                },
+                "from": {
+                    "file": "C:\\Users\\Derek\\AndroidStudioProjects\\Lessons\\xyz\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 59,
+                        "endOffset": 399
+                    }
+                }
+            }
+        ]
+    }
+]

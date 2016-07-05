@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">xyzReader</string>
+    <string name="welcome_xyz_reader">Welcome to xyzReader!</string>
+
+    <string name="trans_photo">transPhoto</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string name="up">Up</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back_button_description">back</string>
+    <string name="textview_missing">Error cannot bind article data, cannot find TextView: article_title or article_byline or article_body</string>
+    <string name="error_photo_not_found">Error: cannot extract palette. ImageView \'photo\' cannot be found</string>
+    <string name="byline_word_by">" by "</string>
+    <string name="no_internet_connection">No Data Connection</string>
+    <string name="range_fraction">range_fraction</string>
+    <string name="article_date_format">MMM dd, yyyy</string>
+    <string translatable="false" name="server_date_format">yyyy-MM-dd HH:mm:ss.SSS</string>
+
+</resources>

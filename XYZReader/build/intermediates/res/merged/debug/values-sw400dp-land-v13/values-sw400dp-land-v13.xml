@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="detail_is_card">false</bool>
+    <dimen name="app_bar_height">108dp</dimen>
+    <dimen name="detail_article_horiz_margin">12dp</dimen>
+    <dimen name="detail_body_text_size">18sp</dimen>
+    <dimen name="detail_byline_text_size">16sp</dimen>
+    <dimen name="detail_card_side_margin">112dp</dimen>
+    <dimen name="detail_card_top_margin">12dp</dimen>
+    <dimen name="detail_inner_horiz_margin">@dimen/keyline_1</dimen>
+    <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
+    <dimen name="detail_metabar_vert_padding">16dp</dimen>
+    <dimen name="detail_photo_max_height">240dp</dimen>
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="keyline_1">24dp</dimen>
+    <dimen name="keyline_2">104dp</dimen>
+    <dimen name="list_byline_text_size">12sp</dimen>
+    <dimen name="list_container_side_margin">4dp</dimen>
+    <dimen name="list_photo_width">100dp</dimen>
+    <dimen name="list_side_margin">@dimen/keyline_1</dimen>
+    <dimen name="list_title_text_size">16sp</dimen>
+    <dimen name="list_toolbar_side_margin">0dp</dimen>
+    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.1</item>
+    <integer name="detail_photo_scale_type">1</integer>
+    <integer name="list_column_count">2</integer>
+    <integer name="list_item_size">1</integer>
+    <string name="list_title_debug">values sw400dp land</string>
+</resources>

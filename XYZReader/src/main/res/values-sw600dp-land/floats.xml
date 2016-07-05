@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="detail_title_weight" format="float" type="fraction">0.75</item>
+    <item name="detail_byline_weight" format="float" type="fraction">0.25</item>
+</resources>

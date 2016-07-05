@@ -1,0 +1,16 @@
+<resources>
+    <!-- detail -->
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="grid_item_spacing">2dp</dimen>
+    <dimen name="small_back_arrow">40dp</dimen>
+
+    <dimen name="list_item_height">72dp</dimen>
+
+</resources>
