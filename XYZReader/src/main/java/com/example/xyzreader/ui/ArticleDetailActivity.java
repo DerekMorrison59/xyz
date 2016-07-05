@@ -110,9 +110,11 @@ public class ArticleDetailActivity extends AppCompatActivity
         }
     }
 
-    // monitor the ViewPager for horizontal swiping
-    // while the user is dragging the page left or right - hide the 'up' button and FAB
-    // once the swiping stops then show the buttons again
+    /**
+     * monitor the ViewPager for horizontal swiping
+     * while the user is dragging the page left or right - hide the 'up' button and FAB
+     * once the swiping stops then show the buttons again
+     */
     private void setUpPageChangeListener() {
         mPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
