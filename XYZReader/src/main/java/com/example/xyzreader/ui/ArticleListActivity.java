@@ -83,12 +83,6 @@ public class ArticleListActivity extends AppCompatActivity implements
             mIsLandscape = true;
         }
 
-/*
-        if (null != savedInstanceState) {
-            mRangeFraction = savedInstanceState.getFloat(getString(R.string.range_fraction));
-        }
-*/
-
         setContentView(R.layout.activity_article_list);
 
         // set up the SwipeRefreshLayout container to cause a database refresh
@@ -118,6 +112,8 @@ public class ArticleListActivity extends AppCompatActivity implements
         if (savedInstanceState == null) {
             // this only happens when the app is first started
             refresh();
+
+            // show the spinning arrow
             mSwipeRefreshLayout.setRefreshing(true);
         }
 
@@ -210,9 +206,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         super.onRestoreInstanceState(savedInstanceState);
     }
 
-
-
-
     private BroadcastReceiver mRefreshingReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -223,7 +216,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                     Toast.makeText(context, R.string.no_internet_connection, Toast.LENGTH_LONG).show();
                 }
 
-                // the update has been done or there is no data connection
+                // the update has completed or there is no data connection
                 // either way the spinner can stop now
                 if (mSwipeRefreshLayout.isRefreshing()) {
                     mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
@@ -240,11 +233,6 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     @Override
     public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {
-/*
-        Adapter adapter = new Adapter(cursor);
-        adapter.setHasStableIds(true);
-        mRecyclerView.setAdapter(adapter);
-*/
         mAdapter.swapCursor(cursor);
 
     }
@@ -330,7 +318,6 @@ public class ArticleListActivity extends AppCompatActivity implements
             });
             return vh;
         }
-
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
