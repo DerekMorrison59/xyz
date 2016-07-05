@@ -3,7 +3,6 @@ package com.example.xyzreader.ui;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -42,7 +41,6 @@ import java.text.SimpleDateFormat;
 public class ArticleDetailFragment extends Fragment implements
         LoaderManager.LoaderCallbacks<Cursor> {
     private static final String TAG = "ArticleDetailFragment";
-
     public static final String ARG_ITEM_ID = "item_id";
 
     private Cursor mCursor;
@@ -51,11 +49,12 @@ public class ArticleDetailFragment extends Fragment implements
     private int mDefaultMutedColor;
     private int mMutedColor;
     private LinearLayout mMetaBar;
-
     private View mPhotoContainerView;
     private ImageView mPhotoView;
-//    private boolean mIsCard = false;
-//    private boolean mIsLandscape = false;
+
+    // make sure to set Target as strong reference
+    private Target mLoadTarget;
+    private Bitmap mThumbBitmap = null;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -79,8 +78,6 @@ public class ArticleDetailFragment extends Fragment implements
         if (null != getArguments() && getArguments().containsKey(ARG_ITEM_ID)) {
             mItemId = getArguments().getLong(ARG_ITEM_ID);
         }
-
-        //mIsCard = getResources().getBoolean(R.bool.detail_is_card);
     }
 
     @Override
@@ -118,12 +115,12 @@ public class ArticleDetailFragment extends Fragment implements
         return mRootView;
     }
 
-    // make sure to set Target as strong reference
-    private Target loadtarget;
-    private Bitmap mThumbBitmap = null;
-
+    /**
+     * Method uses the Picasso library to load an image in the background
+     * @param url The image to load
+     */
     public void loadBitmap(String url) {
-        if (loadtarget == null) loadtarget = new Target() {
+        if (mLoadTarget == null) mLoadTarget = new Target() {
             @Override
             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
                 mThumbBitmap = bitmap;
@@ -133,7 +130,7 @@ public class ArticleDetailFragment extends Fragment implements
             @Override
             public void onBitmapFailed(Drawable drawable) { } // nothing to do
         };
-        Picasso.with(getActivity().getApplicationContext()).load(url).into(loadtarget);
+        Picasso.with(getActivity().getApplicationContext()).load(url).into(mLoadTarget);
     }
 
     private void bindViews() {
@@ -152,11 +149,6 @@ public class ArticleDetailFragment extends Fragment implements
         }
 
         bylineView.setMovementMethod(LinkMovementMethod.getInstance());
-
-        // the default Roboto typeface is better because it is crisp and easy to read
-//        titleView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
-//        bylineView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
-//        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
 
         if (null == mCursor){
             mRootView.setVisibility(View.GONE);
@@ -226,6 +218,7 @@ public class ArticleDetailFragment extends Fragment implements
         int start = strBuilder.getSpanStart(span);
         int end = strBuilder.getSpanEnd(span);
         int flags = strBuilder.getSpanFlags(span);
+
         // the onClick method was modified to use an Intent to launch a browser and visit the URL
         ClickableSpan clickable = new ClickableSpan() {
             public void onClick(View view) {
@@ -309,7 +302,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         bindViews();
 
-        // finish the transition animation now
+        // data has been loaded so it's time to finish the transition animation now
         if (Globals.getInstance().getSelectedItemId() == mItemId) {
             scheduleStartPostponedTransition(mPhotoView);
         }
